@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-hello-world",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "My entry for the Gatsby Silly Site Challenge. https://www.gatsbyjs.com/silly-site-challenge",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
