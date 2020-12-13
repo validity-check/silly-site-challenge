@@ -1,5 +1,6 @@
 import React from "react"
 // import { Link } from "gatsby"
+import { Helmet } from "react-helmet"
 
 import index from "../styles/index.css"
 
@@ -10,9 +11,13 @@ import Header from "../components/header/header"
 export default function Home() {
   return (
     <div className="index">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Silly Site Home</title>
+      </Helmet>
       <style src={index} />
       <Header />
-      <section className="flip-fine brand">
+      <section className="brand">
         <div className="brand">
           <h1 className="brand center shake">The Silly Site</h1>
           <Brand
@@ -32,17 +37,17 @@ export default function Home() {
           Built with GatsbyJS, master of Javascript frameworks.
         </a>
       </section>
-      <section className="flip-fine interessant">
+      <section className="interessant">
         <div>
           <h1 className="cool">Interesting things happen on this website.</h1>
           <p className="center cool">Beautiful yet absolutely absurd.</p>
         </div>
       </section>
-      <section className="flip-fine">
+      <section>
         <pre className="fly">
-          <code className="fly flip-fine shake">too many thoughts</code>
+          <code className="fly shake">too many thoughts</code>
         </pre>
-        <blockquote className="fly-2 flip-fine shake">
+        <blockquote className="fly-2  shake">
           Please don't crash into me
         </blockquote>
         <p className="fly-3">

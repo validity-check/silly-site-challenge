@@ -17,9 +17,9 @@ export default function Header(props) {
           </Link>
           <ul>
             <li>
-              {/* <a href="/" className="link">
-                link
-              </a> */}
+              <Link to="upside-down" activeClassName="active" className="link">
+                <h1 className="upside-down">Home</h1>
+              </Link>
             </li>
           </ul>
         </nav>

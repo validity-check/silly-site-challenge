@@ -155,7 +155,8 @@ section.brand {
   justify-self: right;
   justify-items: right;
   display: flex;
-  padding-left: 90%;
+  word-wrap: normal;
+  padding-left: 80%;
   text-decoration: none;
   font-size: large;
   color: rebeccapurple;
@@ -232,4 +233,11 @@ section.brand {
 .fly-4 {
   text-align: center;
   animation: fly 1.5s infinite;
+}
+
+.flyers {
+  max-width: 100%;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
 }
