@@ -22,3 +22,13 @@
 p {
   font-family: "Roboto", sans-serif;
 }
+
+.upside-down {
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+
+.right {
+  text-align: right;
+}
