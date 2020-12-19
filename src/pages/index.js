@@ -16,7 +16,6 @@ export default function Home() {
         <title>Silly Site Home</title>
         <link rel="canonical" href="https://sillysitechallenge.gtsb.io" />
         <meta name="description" content="The silliest site on the web, built with Gatsby JS for the Silly Site Challenge." />
-        <meta name="robots" content="all" />
       </Helmet>
       <style src={index} />
       <Header />
